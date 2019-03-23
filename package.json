@@ -19,8 +19,7 @@
 	"private": true,
 	"repository": "",
 	"enact": {
-		"theme": "moonstone",
-		"isomorphic": true
+		"theme": "moonstone"
 	},
 	"eslintConfig": {
 		"extends": "enact"

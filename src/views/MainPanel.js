@@ -43,7 +43,7 @@ export default class MainPanel extends React.Component {
 				<Panel>
 					<Popup open={this.state.clicked} onClick={()=>{this.setState({clicked:false})}}> Hola {this.state.name}. Ahora aléjalo! </Popup>
 					<BodyText onClick={()=>{this.setState({clicked:true})}} >
-						Acerca tu teléfono móvil con la aplicación abierta.
+						Acerca tu teléfono móvil con la aplicación abierta o utiliza el API para cambiar los valores.
 					</BodyText>	
 				</Panel>
 		);
